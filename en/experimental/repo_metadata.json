@@ -1,0 +1,107 @@
+{
+    "pattern_categories" :
+     [
+        {
+            "id": "com.ibm.etools.pattern",
+            "name": "Patterns",
+            "parent_category_id": null,
+            "doc_url": null
+        },
+        {
+            "id": "categories.Id137f11207e577a6cd936f6b8717",
+            "name": "Mobile",
+            "parent_category_id": "com.ibm.etools.pattern",
+            "doc_url": "http://ot4i.github.io/patterns/en/categories/Id137f11207e577a6cd936f6b8717/overview.htm"
+        },
+
+        {
+            "id": "categories.Id13e1237d9d5444112c7f0ad8e88",
+            "name": "MessageSight",
+            "parent_category_id": "categories.Id137f11207e577a6cd936f6b8717",
+            "doc_url": "http://ot4i.github.io/patterns/en/categories/Id13e1237d9d5444112c7f0ad8e88/overview.htm"
+        }
+        ,
+        {
+            "id": "com.ibm.etools.mft.pattern.fp",
+            "name": "File Processing",
+            "parent_category_id": "com.ibm.etools.pattern",
+            "doc_url": "http://ot4i.github.io/patterns/en/categories/com.ibm.etools.mft.pattern.fp/wmb_patterns_fp.htm"
+        },
+        {
+            "id": "com.ibm.etools.mft.pattern.fp.rd",
+            "name": "Record Distribution",
+            "parent_category_id": "com.ibm.etools.mft.pattern.fp",
+            "doc_url": "http://ot4i.github.io/patterns/en/categories/com.ibm.etools.mft.pattern.fp.rd/overview.htm"
+        }
+
+
+
+
+     ],
+
+ 
+
+
+    "patterns": [
+
+        
+        {
+            "id" : "com.ibm.etools.mft.pattern.messaging.eventfilter",
+            "name": "Event Filter",
+            "category_id": "categories.Id13e1237d9d5444112c7f0ad8e88",
+            "doc_url": "http://ot4i.github.io/event-filter-pattern/pattern/en/overview.htm",
+            "ibm_supported": false,
+
+
+
+            "versions" :
+
+            [
+              { "number" : 1.0,
+                "valid_for_product_version": [ "10*" ],
+                "feature_group_name" : "com.ibm.etools.mft.pattern.messaging.eventfilter.Feature.feature.group",
+                "nl_feature_group_name" : "com.ibm.etools.mft.pattern.messaging.eventfilter.Feature.NL.feature.group",
+                "qualifier" : "1.0.0.0",
+                "patternzipURL" : "https://github.com/ot4i/event-filter-pattern/releases/download/v1.0/EventFilterPattern.patternzip",
+                "patternzipSize" : "4099 KB"
+
+              }
+
+
+            ]
+
+
+        },
+     {
+            "id" : "com.ibm.etools.mft.pattern.fp.rd.httponeway",
+            "name": "HTTP one-way",
+            "category_id": "com.ibm.etools.mft.pattern.fp.rd",
+            "doc_url": "http://ot4i.github.io/file-http-pattern/pattern/en/overview.htm",
+            "ibm_supported": false,
+
+
+
+            "versions" :
+
+            [
+              { "number" : 1.0,
+                "valid_for_product_version": [ "10*" ],
+                "feature_group_name" : "com.ibm.etools.mft.pattern.fp.rd.httponeway.Feature.feature.group",
+                "nl_feature_group_name" : "com.ibm.etools.mft.pattern.fp.rd.httponeway.Feature.NL.feature.group",
+                "qualifier" : "0.1.0.0",
+                "patternzipURL" : "https://github.com/ot4i/file-http-pattern/releases/download/0.1/HTTPOneway.patternzip",
+                "patternzipSize" : "222.3 KB"
+
+              }
+
+
+            ]
+
+
+        }
+
+
+    ]
+
+
+}
