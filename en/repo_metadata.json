@@ -1,0 +1,60 @@
+{
+    "pattern_categories" :
+     [
+        {
+            "id": "com.ibm.etools.pattern",
+            "name": "Patterns",
+            "parent_category_id": null,
+            "doc_url": null
+        },
+
+        {
+            "id": "categories.Id128060cd5424813434183055e99",
+            "name": "Samples",
+            "parent_category_id": "com.ibm.etools.pattern",
+            "doc_url": "http://ot4i.github.io/patterns/en/categories/Id128060cd5424813434183055e99/overview.htm"
+        }
+
+
+
+
+     ],
+
+ 
+
+
+    "patterns": [
+
+        {
+            "id" : "com.ibm.etools.mft.SolarPatternAuthoring.pattern",
+            "name": "Solar",
+            "category_id": "categories.Id128060cd5424813434183055e99",
+            "doc_url": "http://ot4i.github.io/solar-pattern/en/overview.htm",
+            "ibm_supported": false,
+
+
+
+            "versions" :
+
+            [
+              { "number" : 1.0,
+                "valid_for_product_version": [ "10*" ],
+                "feature_group_name" : "com.ibm.etools.mft.SolarPatternAuthoring.Feature.feature.group",
+                "nl_feature_group_name" : "com.ibm.etools.mft.SolarPatternAuthoring.Feature.NL.feature.group",
+                "qualifier" : "9.0.0.0",
+                "patternzipURL" : "https://github.com/ot4i/solar-pattern/releases/download/1.0/Solar.patternzip",
+                "patternzipSize" : "68 KB"
+
+              }
+
+
+            ]
+
+
+        }
+
+
+    ]
+
+
+}
