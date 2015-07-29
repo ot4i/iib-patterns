@@ -92,6 +92,15 @@
                 "patternzipURL" : "https://github.com/ot4i/file-http-pattern/releases/download/0.1/HTTPOneway.patternzip",
                 "patternzipSize" : "222.3 KB"
 
+              },
+              { "number" : 2.0,
+                "valid_for_product_version": [ "10*" ],
+                "feature_group_name" : "com.ibm.etools.mft.pattern.fp.rd.httponeway.Feature.feature.group",
+                "nl_feature_group_name" : "com.ibm.etools.mft.pattern.fp.rd.httponeway.Feature.NL.feature.group",
+                "qualifier" : "0.2.0.0",
+                "patternzipURL" : "https://github.com/ot4i/file-http-pattern/releases/download/0.2/FileToHTTPPattern.patternzip",
+                "patternzipSize" : "265 KB"
+
               }
 
 
