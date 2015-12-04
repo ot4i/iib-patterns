@@ -101,6 +101,24 @@
             ]
         },
         {
+            "id" : "com.ibm.etools.mft.pattern.fp.rd.httponeway",
+            "name": "HTTP one-way",
+            "category_id": "com.ibm.etools.mft.pattern.fp.rd",
+            "doc_url": "http://ot4i.github.io/file-http-pattern/pattern/en/overview.htm",
+            "ibm_supported": false,
+            "versions" :
+            [
+              { "number" : 3.0,
+                "valid_for_product_version": [ "10*" ],
+                "feature_group_name" : "com.ibm.etools.mft.pattern.fp.rd.httponeway.Feature.feature.group",
+                "nl_feature_group_name" : "com.ibm.etools.mft.pattern.fp.rd.httponeway.Feature.NL.feature.group",
+                "qualifier" : "1.0.0.0",
+                "patternzipURL" : "https://github.com/ot4i/file-http-pattern/releases/download/1.0.0.0/FileToHTTPPattern.v1000.patternzip",
+                "patternzipSize" : "265 KB"
+              }
+            ]
+        },
+        {
             "id" : "com.ibm.etools.mft.pattern.fp.rd.mq",
             "name": "MQ one-way",
             "category_id": "com.ibm.etools.mft.pattern.fp.rd",
