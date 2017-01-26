@@ -36,7 +36,19 @@
             "name": "Message Splitter",
             "parent_category_id": "com.ibm.etools.mft.pattern.mbi",
             "doc_url": "http://ot4i.github.io/patterns/en/categories/com.ibm.etools.mft.pattern.mbi.ms/overview.htm"
-        },        
+        },
+        {
+            "id": "com.ibm.etools.mft.pattern.dotnet",
+            "name": "Microsoft .NET Integration",
+            "parent_category_id": "com.ibm.etools.pattern",                         
+            "doc_url": "http://ot4i.github.io/patterns/en/categories/com.ibm.etools.mft.pattern.dotnet/overview.htm"
+        },                 
+        {
+            "id": "com.ibm.etools.mft.pattern.dotnet.dynamictocrm",
+            "name": "Microsoft Dynamics CRM",
+            "parent_category_id": "com.ibm.etools.mft.pattern.dotnet",
+            "doc_url": "http://ot4i.github.io/patterns/en/categories/com.ibm.etools.mft.pattern.dotnet.dynamictocrm/overview.htm"
+        },         
         {
             "id": "categories.Id137f11207e577a6cd936f6b8717",
             "name": "Mobile",
@@ -82,6 +94,24 @@
      ],
 
     "patterns": [
+        {
+            "id" : "com.ibm.etools.mft.pattern.dynamictocrm",
+            "name": "Dynamic Input, Account Entity Output",
+            "category_id": "com.ibm.etools.mft.pattern.dotnet.dynamictocrm",            
+            "doc_url": "http://ot4i.github.io/dynamic-to-crm-pattern/pattern/en/overview.htm",
+            "ibm_supported": false,
+            "versions" :
+            [
+              { "number" : 1.0,
+                "valid_for_product_version": [ "10*" ],
+                "feature_group_name" : "com.ibm.etools.mft.pattern.dynamictocrm.Feature.feature.group",
+                "nl_feature_group_name" : "com.ibm.etools.mft.pattern.dynamictocrm.Feature.NL.feature.group",
+                "qualifier" : "1.0.0.0",
+                "patternzipURL" : "https://github.com/ot4i/dynamic-to-crm-pattern/releases/download/V1.0/DynamicToCRM.patternzip",
+                "patternzipSize" : "3594 KB"
+              }
+            ]
+        },        
         {
             "id" : "com.ibm.etools.mft.pattern.messaging.eventfilter",
             "name": "Event Filter",
