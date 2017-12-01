@@ -62,6 +62,12 @@
             "doc_url": "http://ot4i.github.io/patterns/en/categories/Id13e1237d9d5444112c7f0ad8e88/overview.htm"
         },
         {
+            "id": "categories.Id15f72d7edbe913687c836fd81b5",
+            "name": "SaaS Application Connectivity",
+            "parent_category_id": "com.ibm.etools.pattern",
+            "doc_url": "http://ot4i.github.io/patterns/en/categories/Id15f72d7edbe913687c836fd81b5/overview.htm"
+        }, 
+        {
             "id": "com.ibm.etools.mft.pattern.sen",
             "name": "Service Enablement",
             "parent_category_id": "com.ibm.etools.pattern",
@@ -109,6 +115,24 @@
                 "qualifier" : "1.0.0.0",
                 "patternzipURL" : "https://github.com/ot4i/dynamic-to-crm-pattern/releases/download/V1.0/DynamicToCRM.patternzip",
                 "patternzipSize" : "3594 KB"
+              }
+            ]
+        },        
+        {
+            "id" : "com.ibm.AppConnectRESTRequestPattern",
+            "name": "App Connect REST Pattern",
+            "category_id": "categories.Id15f72d7edbe913687c836fd81b5",            
+            "doc_url": "http://ot4i.github.io/appconnectrestrequest-pattern/pattern/en/overview.htm",
+            "ibm_supported": false,
+            "versions" :
+            [
+              { "number" : 1.0,
+                "valid_for_product_version": [ "10*" ],
+                "feature_group_name" : "com.ibm.AppConnectRESTRequestPattern.Feature.feature.group",
+                "nl_feature_group_name" : "com.ibm.AppConnectRESTRequestPattern.Feature.NL.feature.group",
+                "qualifier" : "1.0.0.0",
+                "patternzipURL" : "https://github.com/ot4i/appconnectrestrequest-pattern/releases/download/V1.0/AppConnectRESTRequestPattern.patternzip",
+                "patternzipSize" : "563 KB"
               }
             ]
         },        
