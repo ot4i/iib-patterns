@@ -162,13 +162,13 @@
             "ibm_supported": false,
             "versions" :
             [
-              { "number" : 3.0,
+              { "number" : 5.0,
                 "valid_for_product_version": [ "10*" ],
                 "feature_group_name" : "com.ibm.etools.mft.pattern.fp.rd.httponeway.Feature.feature.group",
                 "nl_feature_group_name" : "com.ibm.etools.mft.pattern.fp.rd.httponeway.Feature.NL.feature.group",
-                "qualifier" : "1.0.0.0",
-                "patternzipURL" : "https://github.com/ot4i/file-http-pattern/releases/download/2.0.0.0/FileToHTTPPattern.v2000.patternzip",
-                "patternzipSize" : "265 KB"
+                "qualifier" : "2.0.0.1",
+                "patternzipURL" : "https://github.com/sparsons-net/file-http-pattern/releases/download/2.0.0.1/FileToHTTPPattern.v2001.patternzip",
+                "patternzipSize" : "281 KB"
               }
             ]
         },
